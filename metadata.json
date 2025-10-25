@@ -1,0 +1,26 @@
+{
+    "name": "wget",
+    "version": "1.25.0",
+    "type": "binary",
+    "architecture": "x86_64",
+    "description": "GNU Wget - network utility to retrieve files from the Web using HTTP, HTTPS and FTP",
+    "maintainer": "AnmiTaliDev <anmitali198@gmail.com>",
+    "license": "GPL-3.0",
+    "tags": [
+        "network",
+        "download",
+        "http",
+        "https",
+        "ftp"
+    ],
+    "homepage": "https://www.gnu.org/software/wget/",
+    "dependencies": [
+        "openssl"
+    ],
+    "conflicts": [],
+    "provides": [],
+    "replaces": [],
+    "conf": [
+        "/etc/wgetrc"
+    ]
+}
